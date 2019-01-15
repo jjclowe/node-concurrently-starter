@@ -6,7 +6,7 @@
   "private": true,
   "scripts": {
     "start": "concurrently \"cd node-express-mongoose-boilerplate && npm run server\" \"cd react-redux-semantic-boilerplate && npm run start\"",
-    "demo-clone": "",
+    "demo-clone": "git clone \"https://github.com/jjclowe/react-redux-semantic-boilerplate.git\" && git clone \"https://github.com/jjclowe/node-express-mongoose-boilerplate.git\"",
     "demo-install": "cd node-express-mongoose-boilerplate && npm install && cd ../react-redux-semantic-boilerplate && npm install"
   },
   "devDependencies": {
