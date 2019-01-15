@@ -1,0 +1,15 @@
+{
+  "name": "node-concurrently-starter",
+  "version": "1.0.0",
+  "description": "A simple package for running a client and server local dev environment with concurrently.  Scripts to install demos included.",
+  "author": "James Lowe",
+  "private": true,
+  "scripts": {
+    "start": "concurrently \"cd node-express-mongoose-boilerplate && npm run server\" \"cd react-redux-semantic-boilerplate && npm run start\"",
+    "demo-clone": "",
+    "demo-install": "cd node-express-mongoose-boilerplate && npm install && cd ../react-redux-semantic-boilerplate && npm install"
+  },
+  "devDependencies": {
+    "concurrently": "^4.1.0"
+  }
+}
